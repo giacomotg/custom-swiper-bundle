@@ -1,12 +1,12 @@
 // core version + navigation, pagination modules:
-import Swiper, { Navigation, Pagination, Thumbs, Controller } from 'swiper';
+import Swiper, { Navigation, Pagination, Thumbs} from 'swiper';
 // import Swiper and modules styles
 import 'swiper/swiper-bundle.min.css';
 
 // init Swiper:
 var heroThumbs = new Swiper(".hero-thumbs", {
   // configure Swiper to use modules
-  modules: [Navigation, Pagination, Thumbs, Controller],
+  modules: [Navigation, Pagination, Thumbs],
     direction: "vertical",
   slidesPerView: "auto",
   spaceBetween: 5,
@@ -18,7 +18,7 @@ var heroThumbs = new Swiper(".hero-thumbs", {
 });
 var heroCarousel = new Swiper(".hero-carousel", {
      // configure Swiper to use modules
-     modules: [Navigation, Pagination, Controller],
+     modules: [Navigation, Pagination],
   slidesPerView: "auto",
   spaceBetween: 6,
   pagination: {
