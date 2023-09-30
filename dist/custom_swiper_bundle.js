@@ -6,7 +6,6 @@ import 'swiper/swiper-bundle.min.css';
 // init Swiper:
 var heroThumbs = new Swiper(".hero-thumbs", {
   // configure Swiper to use modules
-  modules: [Navigation, Pagination, Thumbs],
     direction: "vertical",
   slidesPerView: "auto",
   spaceBetween: 5,
@@ -18,7 +17,7 @@ var heroThumbs = new Swiper(".hero-thumbs", {
 });
 var heroCarousel = new Swiper(".hero-carousel", {
      // configure Swiper to use modules
-     modules: [Navigation, Pagination],
+  
   slidesPerView: "auto",
   spaceBetween: 6,
   pagination: {
@@ -37,7 +36,7 @@ var heroCarousel = new Swiper(".hero-carousel", {
 
 var testiSwiper = new Swiper(".all-testimonials", {
      // configure Swiper to use modules
-     modules: [Navigation, Pagination],
+     
   slidesPerView: "auto",
   spaceBetween: 20,
   pagination: {
@@ -51,7 +50,7 @@ var testiSwiper = new Swiper(".all-testimonials", {
 
 var genSwiper = new Swiper(".all-general-reviews", {
      // configure Swiper to use modules
-     modules: [Navigation, Pagination],
+    
   slidesPerView: 'auto',
   spaceBetween: 12,
   centeredSlides: true,
@@ -68,7 +67,7 @@ var genSwiper = new Swiper(".all-general-reviews", {
 
 var uspSwiper = new Swiper(".all-manual-usps", {
     // configure Swiper to use modules
-    modules: [Navigation, Pagination],
+ 
     slidesPerView: "auto",
     spaceBetween: 12,
     centerInsufficientSlides: true,
@@ -76,7 +75,7 @@ var uspSwiper = new Swiper(".all-manual-usps", {
 
   var howStepSwiper = new Swiper(".all-how-to-steps", {
      // configure Swiper to use modules
-     modules: [Navigation, Pagination],
+    
     slidesPerView: "auto",
     spaceBetween: 16,
     pagination: {
@@ -86,7 +85,7 @@ var uspSwiper = new Swiper(".all-manual-usps", {
 
   var prodSwiper = new Swiper(".all-more-products", {
      // configure Swiper to use modules
-     modules: [Navigation, Pagination],
+  
     slidesPerView: "auto",
     spaceBetween: 20,
     pagination: {
@@ -100,7 +99,7 @@ var uspSwiper = new Swiper(".all-manual-usps", {
 
   var planSwiper = new Swiper(".all-plan-cards", {
      // configure Swiper to use modules
-     modules: [Navigation, Pagination],
+    
     slidesPerView: "auto",
     spaceBetween: 16,
     //centerInsufficientSlides: true,
@@ -114,7 +113,7 @@ var uspSwiper = new Swiper(".all-manual-usps", {
 
   var hiwSwiper = new Swiper(".all-hiw-science-cards", {
      // configure Swiper to use modules
-     modules: [Navigation, Pagination],
+  
     slidesPerView: "auto",
     spaceBetween: 20,
     centerInsufficientSlides: true,
@@ -132,7 +131,7 @@ var uspSwiper = new Swiper(".all-manual-usps", {
   // Success carousel
 var successThumbs = new Swiper(".all-success-thumbs", {
     // configure Swiper to use modules
-    modules: [Navigation, Pagination],
+   
     slidesPerView: "auto",
     spaceBetween: 20,
     allowSlideNext: false,
@@ -144,7 +143,7 @@ var successThumbs = new Swiper(".all-success-thumbs", {
   });
   var successSwiper = new Swiper(".all-success-stories", {
     // configure Swiper to use modules
-    modules: [Navigation, Pagination],
+ 
     slidesPerView: 1,
     spaceBetween: 20,
     breakpoints: {
@@ -161,7 +160,7 @@ var successThumbs = new Swiper(".all-success-thumbs", {
   
   var confidentSwiper = new Swiper(".confident-members-swiper", {
     // configure Swiper to use modules
-    modules: [Navigation, Pagination],
+    
     slidesPerView: "auto",
     spaceBetween: 20,
     centerInsufficientSlides: true,
