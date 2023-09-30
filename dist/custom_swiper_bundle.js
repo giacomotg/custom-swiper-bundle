@@ -1,5 +1,5 @@
 // core version + navigation, pagination modules:
-import Swiper, { Navigation, Pagination, Thumbs} from 'swiper';
+import Swiper, { Navigation, Pagination } from 'swiper';
 // import Swiper and modules styles
 import 'swiper/swiper-bundle.min.css';
 
