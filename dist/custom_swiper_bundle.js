@@ -1,8 +1,5 @@
-// Import necessary components and modules
-import Swiper, { Default } from 'swiper';
-
-// Register the modules
-Swiper.use([Navigation, Pagination, Thumbs]);
+import Swiper from 'swiper';
+import { Navigation, Pagination } from 'swiper/modules';
 
 import 'swiper/swiper-bundle.css'
 
