@@ -1,7 +1,9 @@
 // core version + navigation, pagination modules:
 import Swiper, { Navigation, Pagination } from 'swiper';
+Swiper.use([Navigation, Pagination]);
+
 // import Swiper and modules styles
-import 'swiper/swiper-bundle.min.css';
+import 'swiper/swiper-bundle.css';
 
 // init Swiper:
 var heroThumbs = new Swiper(".hero-thumbs", {
